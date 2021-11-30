@@ -3,4 +3,4 @@
 Go to the deployed page and try it as you want. <br>
 P.S: Satisfaction guarantee 😄
 <br>
- - Deployment URL:  '[Fist-Power](https://upbeat-meitner-e1fe85.netlify.app/)' <br>
+ - Deployment URL:  '[Fist-Power](https://romantic-jang-734583.netlify.app/)' <br>
