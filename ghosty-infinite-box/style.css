@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Anton);
+body, html {
+  padding: 0;
+  margin: 0;
+  background-color: tomato;
+  box-sizing: border-box;
+}
+
+.box {
+  position: absolute;
+  width: 100vw;
+  top: 60vh;
+  height: 40vh;
+  background-color: black;
+  z-index: 2;
+}
+
+.switch {
+  position: absolute;
+  bottom: 40vh;
+  right: 40vw;
+  width: 50px;
+  height: 70px;
+  z-index: 1;
+}
+.switch .bottom {
+  position: absolute;
+  background-color: silver;
+  width: 50px;
+  height: 20px;
+  bottom: 0;
+  border-radius: 10px 10px 0 0;
+  box-shadow: inset -3px 3px 0px 0px #dadada;
+}
+.switch .top {
+  position: absolute;
+  left: 17px;
+  bottom: 5px;
+  width: 16px;
+  height: 70px;
+  background-color: silver;
+  border-radius: 5px;
+  transform: rotate(15deg);
+  transform-origin: bottom;
+}
+.switch .top.clicked {
+  transform: rotate(-15deg);
+}
+
+.closer {
+  position: absolute;
+  margin-right: 72px;
+  width: 200px;
+  height: 50px;
+  bottom: 40vh;
+  margin-bottom: -5px;
+  right: 40vw;
+  transform: rotate(-22deg) translate(-200px, 100px);
+  border: #dadada solid 45px;
+  border-radius: 200px 0 0 0;
+  border-bottom: 0;
+  border-right: 0;
+  transition: all 0.5s ease-out;
+}
+.closer:before {
+  content: "";
+  position: absolute;
+  top: -45px;
+  left: 199px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 45px 45px 0 0;
+  border-color: #dadada transparent transparent transparent;
+}
+.closer.active {
+  transform: none;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-size: 100px;
+}
