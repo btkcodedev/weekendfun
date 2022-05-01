@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 # Weekendfun - Just a repository that has the collection of weekend fun hacks
 =======
@@ -20,7 +20,7 @@ P.S: Satisfaction guarantee 😄
 # Js-clock
 Simple Javascript Clock🕑 with designer UI🖥️
 <br>
-Deployment URL: [JS-Clock](https://gracious-raman-0d0e91.netlify.app/)
+ - Try Link: [JS-Clock](https://gracious-raman-0d0e91.netlify.app/)
 
 =======
 
@@ -30,4 +30,5 @@ Deployment URL: [JS-Clock](https://gracious-raman-0d0e91.netlify.app/)
 As the good old useless box has been disturbed for several years right now 😅, some ghost👓 also wants to trigger the switch in that box, but for infinite number of times 😈.<br>
 Go to the hosted page and see it ```yourself```😆.
 (You might want to trigger the switch to get started 👻)
->>>>>>> ghtemp/main
+ - Try Link: [Ghosty - Infinite - Useless - Box](https://velvety-otter-e0aa58.netlify.app)
+
